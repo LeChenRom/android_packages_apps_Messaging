@@ -89,8 +89,6 @@ public class ClassZeroActivity extends Activity {
             return false;
         }
         mMessageQueue.add(messageValues);
-        // Show a notification to let the user know a new message has arrived
-        BugleNotifications.playClassZeroNotification();
         return true;
     }
 
